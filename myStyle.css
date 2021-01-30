@@ -1,3 +1,7 @@
+:root {
+  --sage:#9BA17B;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -26,12 +30,10 @@ img {
 }
 
 .Header {
-  background-color: #9BA17B;
+  background-color: var(--sage);
   color: black;
   text-align: center;
   padding: 25px 60px 25px 60px;
-  /*padding: 82px 60px 25px 60px;*/
-  /*margin-top: 57px;*/
 /*  border: 5px solid red;*/
 }
 
@@ -64,48 +66,3 @@ img {
   margin-left: 150px;
   margin-right: 150px;
 }
-
-
-/* || navBar styles */
-/*.navBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navBar li {
-  float: left;
-  border-right: 1px solid #EAD595;
-}
-
-.navBar a {
-  display: block;
-  padding: 8px;
-}
-
-.navBar li:last-child {
-  border-right: none;
-}
-
-.navBar li a {
-  display: block;
-  color: #EAD595;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navBar li a:hover {
-  /*background-color: #45B6FE;*/
-  text-decoration: underline overline #45B6FE;
-}
-
-.active {
-  background-color: #9BA17B;
-  color: black;
-}*/
-
